@@ -1,0 +1,12 @@
+                         Sequencia de processamento       
+__________________________________________________________________________________
+
+1 - separa palavras e operadores
+2 - classificação de comandos ( comandos reservados , comandos de bash , ou strings e etc)
+3 - expansões
+4 - redirecionamentos
+5 - captura o estado de saída
+
+~ = home/usuario
+
+__________________________________________________________________________________
