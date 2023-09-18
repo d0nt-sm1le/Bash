@@ -1,0 +1,33 @@
+                             Comandos Gerais
+__________________________________________________________________________________
+Texto: 
+
+echo = imprime uma mensagem na tela
+top [k] = mata o processo pelo id
+clear = limpa o terminal
+
+---------------------------------------------------------------------------------
+Máquina:
+
+adduser = cria úsuario
+userdel = exclui um usuário 
+whoami = informa o úsuario atual
+
+hostname = nome da máquina
+uptime -p = para saber por quanto tempo a máquina está ligada
+
+---------------------------------------------------------------------------------
+Arquivos:
+
+pwd = mostra a pasta em que você está
+cd = para mudar de pasta
+ls = para listar arquivos ou pastas
+more / cat = exibe conteúdo do arquivo
+uname -rms = mostra o nome do kernel linux que está sendo usado
+
+>texto.txt = cria arquivo
+rm -r = apaga arquivos
+rm -rf = apaga pastas
+
+chmod +x = modifica as permições do arquivo (+x para tornar o arquivo executavel)
+__________________________________________________________________________________

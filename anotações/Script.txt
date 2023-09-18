@@ -1,0 +1,13 @@
+                                    Scripts
+__________________________________________________________________________________
+Bom , digamos que queremos iniciar um sequencia de comandos toda vez que a gente for entrar no terminal, ou precisamos fazer uma sequencia de comando em algum momento do nosso trabalho. Seria muito complicado ficarmos escrevendo esses comandos toda vez que precisamos deles. E por isso agente usa os scripts.
+
+1 - Para criar um script você usa o ">" mais o nome do arquivo do lado.
+
+2 - Depois você usa o comando "chmod +x nome_do_arquivo" para tornalo executavel.
+
+3 - E para abri-lo você pode usar um editor de texto de sua escolha mas como na maioria das distribuições linux vem o "gnu nano" usaremos ele. E para abrir é só colocar o comando "nano nome_do_arquivo" que vai abrir o seu script
+
+4 - E por último , pra rodar o seu arquivo digite "./nome_do_arquivo"
+
+__________________________________________________________________________________
