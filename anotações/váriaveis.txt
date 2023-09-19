@@ -1,0 +1,19 @@
+                                  Váriaveis
+__________________________________________________________________________________
+Pré-configuradas:
+
+O bash já vem com váriaveis pré-configuradas , que podem facilitar nossa vida. Todas as váriaveis pré configuradas começam com $ e seguem com letras maiuscula, e eu darei alguns exemplos delas.
+
+$PATH = procura pelos seus diretórios, arquivos que podem ser executaveis
+
+----------------------------------------------------------------------------------
+Modificações de váriaveis:
+
+Para modificar uma váriavel já pré configurada, você vai atribuir um valor ao que aquela váriavel corresponde. ex:
+
+PATH=$PATH:~/bin
+
+Oque aconteceu aqui é que eu adicionei um novo diretório para o PATH procurar na home , assim ele aparece em ultimo. A váriavel PATH recebe o novo valor de $PATH que é usada para a declaração, para modificar os diretórios para procurar também no :~/bin (~ = home)
+
+(obs: quando você atribui um valor a uma váriavel , independete de estar criando ela ou não,no bash, nunca use espaços entre o sinal de igual! )
+__________________________________________________________________________________

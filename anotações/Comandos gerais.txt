@@ -21,13 +21,16 @@ Arquivos:
 
 pwd = mostra a pasta em que você está
 cd = para mudar de pasta
+cd - - você volta uma pasta
 ls = para listar arquivos ou pastas
 more / cat = exibe conteúdo do arquivo
 uname -rms = mostra o nome do kernel linux que está sendo usado
 
 >texto.txt = cria arquivo
-rm -r = apaga arquivos
-rm -rf = apaga pastas
+rm -r = apaga arquivos e pastas
+mkdir (nome da pasta) = cria pastas
+
+mv (o nome do arquivo) (novo nome do arquivo) = muda o nome dos arquivos
 
 chmod +x = modifica as permições do arquivo (+x para tornar o arquivo executavel)
 __________________________________________________________________________________
