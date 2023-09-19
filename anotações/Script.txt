@@ -8,6 +8,8 @@ Bom , digamos que queremos iniciar um sequencia de comandos toda vez que a gente
 
 3 - E para abri-lo você pode usar um editor de texto de sua escolha mas como na maioria das distribuições linux vem o "gnu nano" usaremos ele. E para abrir é só colocar o comando "nano nome_do_arquivo" que vai abrir o seu script
 
-4 - E por último , pra rodar o seu arquivo digite "./nome_do_arquivo"
+2 - Algo que você sempre tem que fazer quando for criar um script em bash é colocar o "#!" e o diretório, para saber o diretório digite "echo #SHELL" e digite o diretório na primeira linha do seu script "#! /bin/bash"
+
+5 - pra rodar o seu arquivo digite "./nome_do_arquivo"
 
 __________________________________________________________________________________
