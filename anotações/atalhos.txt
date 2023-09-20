@@ -1,0 +1,10 @@
+                               Atalhos
+__________________________________________________________________________________
+nano:
+
+Ctrl + x = sai do editor de scripts
+Ctrl + s = salva os scripts
+Ctrl + k = recorta os arquivos
+Ctrl + u = cola os arquivos
+Ctrl + c = cancela algum comando
+_________________________________________________________________________________

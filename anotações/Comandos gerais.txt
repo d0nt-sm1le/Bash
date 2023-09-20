@@ -5,6 +5,11 @@ Texto:
 echo = imprime uma mensagem na tela
 top [k] = mata o processo pelo id
 clear = limpa o terminal
+-n = manda não fazer a quebra de linha
+
+; = é usado para quando você terminar de fazer um comando , você pode fazer outro na mesma linha na ordem de sequencia.
+
+test comando / [comando] / [[ comando com talvez expressões regulares]] = faz o teste de um comando
 
 ---------------------------------------------------------------------------------
 Máquina:
@@ -26,11 +31,11 @@ ls = para listar arquivos ou pastas
 more / cat = exibe conteúdo do arquivo
 uname -rms = mostra o nome do kernel linux que está sendo usado
 
-> = cria arquivosou coloca um comando dentro de um arquivo (comando > arquivo)
+> = cria arquivos ou coloca um comando dentro de um arquivo (comando > arquivo)
 rm -r = apaga arquivos e pastas
 mkdir (nome da pasta) = cria pastas
 
 mv (o nome do arquivo) (novo nome do arquivo) = muda o nome dos arquivos
 
-chmod +x = modifica as permições do arquivo (+x para tornar o arquivo executavel)
+chmod +x = modifica as permições do arquivo (+x para tornar o arquivo executavel)(quando você criar um arquivo , se você colocar ; depois do arquivo , você vai poder faze-lo ser executavel sem ter que fazer outra linha com ele)(e se você colocar um "u" antes do + , então só o seu úsuario podera executa-lo)
 __________________________________________________________________________________

@@ -16,4 +16,11 @@ PATH=$PATH:~/bin
 Oque aconteceu aqui é que eu adicionei um novo diretório para o PATH procurar na home , assim ele aparece em ultimo. A váriavel PATH recebe o novo valor de $PATH que é usada para a declaração, para modificar os diretórios para procurar também no :~/bin (~ = home)
 
 (obs: quando você atribui um valor a uma váriavel , independete de estar criando ela ou não,no bash, nunca use espaços entre o sinal de igual! )
+
+----------------------------------------------------------------------------------
+Outras váriveis:
+
+$SHELL = verifica qual shell você está usando
+
+$? = verifica se o comando anterior for verdadeiro ou falso , se for verdadeiro retorna 0 e se for falso retorna 1
 __________________________________________________________________________________
