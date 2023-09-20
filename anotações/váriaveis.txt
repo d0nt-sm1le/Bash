@@ -28,5 +28,7 @@ O read , vai ser uma forma de retorno para o úsuario guardar uma informação p
 read -p "Digite seu nome: " nome
 echo "Muito prazer em te conhecer, $nome !"
 
-Oque o comando está fazendo , é pedir que o shell escreva "Digite seu nome: " e leia o resultado para armazenar na váriavel nome. E para chamar uma váriavel em qualquer lugar, basta apenas colocar $ e o nome dela.+
+Oque o comando está fazendo , é pedir que o shell escreva "Digite seu nome: " e leia o resultado para armazenar na váriavel nome. E para chamar uma váriavel em qualquer lugar, basta apenas colocar $ e o nome dela.
+
+(obs: use aspas para criar váriaveis de strings)
 __________________________________________________________________________________

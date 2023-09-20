@@ -11,6 +11,7 @@ clear = limpa o terminal
 
 test comando / [comando] / [[ comando com talvez expressões regulares]] = faz o teste de um comando
 
+!! = repete o comando anterior
 ---------------------------------------------------------------------------------
 Máquina:
 
