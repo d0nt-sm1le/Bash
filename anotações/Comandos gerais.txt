@@ -6,6 +6,8 @@ echo = imprime uma mensagem na tela
 top [k] = mata o processo pelo id
 clear = limpa o terminal
 -n = manda não fazer a quebra de linha
+| = separa um comando
+grep = filtra para achar um comando especifico
 
 ; = é usado para quando você terminar de fazer um comando , você pode fazer outro na mesma linha na ordem de sequencia.
 
