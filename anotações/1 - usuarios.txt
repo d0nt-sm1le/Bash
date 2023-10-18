@@ -1,0 +1,44 @@
+                                 Usúarios
+__________________________________________________________________________________
+Users:
+
+# = usuario admin
+$ = usuario comum
+whoami = informa o úsuario atual
+
+----------------------------------------------------------------------------------
+Criando:
+
+adduser = cria um úsuario
+adduser(usuario) sudo = cria um úsuario administrador
+
+useradd -d -s = cria um úsuario, depois do -d vem onde você quer guardar o úsuario e depois do -s vem qual shell você quer colocar. E depois vem o nome do úsuario.
+
+passwd = (usuario) (senha) cria a senha pra algum úsuario caso use "useradd"
+
+----------------------------------------------------------------------------------
+Deletando:
+
+userdel/deluser = exclui um usuário 
+deluser (usuario) sudo = tira o privilégio de admin de algum úsuario
+
+----------------------------------------------------------------------------------
+Mudando:
+
+sudo su = muda pro root(admin)
+su (usuario) = muda de úsuario
+
+caminho (/etc/passwd) guarda todos os úsuarios da máquina
+caminho (/etc/sudoers) vai pra um arquivo que pode dar um root pra um úsuario
+caminho (/bin/bash) significa que o úsuario pode acessar o shell
+caminho (/bin/false) significa que o úsuario não pode acessar o shel
+caminho (/var/log/auth.log) mostra todos os processos de logs feitos
+
+----------------------------------------------------------------------------------
+Máquina: 
+
+hostname = nome da máquina
+uptime -p = para saber por quanto tempo a máquina está ligada
+uname -rms = mostra o nome do kernel linux que está sendo usado 
+reboot = reinicia a máquina
+__________________________________________________________________________________

@@ -1,0 +1,45 @@
+                                 Rede
+__________________________________________________________________________________
+Configs:
+
+ifconfig = mostra as configurações da nossa placa de rede
+ifconfig eth0 netmask = você pode mudar o seu ip colocando um novo depois do eth0 e colocar uma nova mascara depois dos netmask
+dhclient eth0 = pega algum ip fisico local caso seja um ip fisico
+
+/etc/init.d/networking restart = reinicia as configs de rede
+service networking restart = reinicia as configs de rede
+----------------------------------------------------------------------------
+Arquivos:
+
+caminho (/etc/networks/interfaces) dentro desse caminho você pode colocar um comando de "auto eth0" e embaixo colocar "iface eth0 inet dhcp"
+
+dhcp = pega um ip fisico automaticamente
+static = define o ip de um inderesso físico
+address = comando para definir o inderesso stactico
+netmask = para definir as mascara de rede
+gateway = define o seu ip de rota
+-----------------------------------------------------------------------------
+Roteamento:
+
+route = mostra a tabela de roteamento
+route -n = mostra o ip do roteador
+route del default = esta deletando a rota gateway da tabela de roteamento
+route add default gw ip = define o ip de gateway 
+-----------------------------------------------------------------------------
+Serviços:
+
+netstat = visualiza as conexões de rede
+netstat -lt = vizualiza portas TCP abertas no sistema
+netstat -lu = vizualiza o DP da rede
+netstat -lnt = vizualiza o TCP pelo o numero da porta
+netstat -lntp = mostra o PID do programa e o servidor aberto
+service ssh start = cria um serviço ssh
+service ssh stop = fecha o serviço ssh
+service shh restart = reinicia um serviço
+update-rc.d ssh enable = habilita o ssh pra iniciar junto com o sistema
+update-rc.d ssh disable = desabilita pro ssh iniciar junto com o sistema
+
+- Serviços:
+  * Apache2
+  * ssh
+__________________________________________________________________________________

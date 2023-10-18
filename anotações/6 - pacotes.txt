@@ -1,0 +1,14 @@
+                                Pacotes
+__________________________________________________________________________________
+Programas:
+
+sudo apt update = verifica se os programas estão atualizados
+sudo apt upgrade = atualiza todos os programas que podem ser atualizados
+sudo apt search(nome do programa) = procura algum programa e quais versões dele podem ser instalados
+sudo apt install (nome do programa) = faz download do programa digitado
+sudo apt remove (nome do programa) = desinstala algum programa
+
+dpkg -i .deb (nome do arquivo) = sempre que você quiser baixar algum programa .deb
+dpkg -l = mostra todos os programas instalados
+__________________________________________________________________________________
+

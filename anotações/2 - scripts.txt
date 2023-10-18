@@ -12,4 +12,11 @@ Bom , digamos que queremos iniciar um sequencia de comandos toda vez que a gente
 
 5 - pra rodar o seu arquivo digite "./nome_do_arquivo"
 
+----------------------------------------------------------------------------------
+Editores:
+
+* nano
+* vi
+* gedit
+* leafpad
 __________________________________________________________________________________

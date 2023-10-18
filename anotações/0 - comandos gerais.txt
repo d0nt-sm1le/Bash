@@ -14,18 +14,8 @@ grep = filtra para achar um comando especifico
 test comando / [comando] / [[ comando com talvez expressões regulares]] = faz o teste de um comando
 
 !! = repete o comando anterior
----------------------------------------------------------------------------------
-Máquina:
+----------------------------------------------------------------------------------
 
-adduser = cria úsuario
-userdel = exclui um usuário 
-whoami = informa o úsuario atual
-
-hostname = nome da máquina
-uptime -p = para saber por quanto tempo a máquina está ligada
-uname -rms = mostra o nome do kernel linux que está sendo usado
-
----------------------------------------------------------------------------------
 Arquivos:
 
 Pastas e diretórios: 

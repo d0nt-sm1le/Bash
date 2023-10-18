@@ -7,4 +7,16 @@ Ctrl + s = salva os scripts
 Ctrl + k = recorta os arquivos
 Ctrl + u = cola os arquivos
 Ctrl + c = cancela algum comando
+Ctrl + w = procura por algum nome ou palavra
+
+----------------------------------------------------------------------------------
+vi:
+
+i = deixa você escrever no arquivo
+esc + q = sai do vi sem salvar
+esc + q! = força pra sair sem salvar
+esc + wq = salva e sai
+d + d = deleta uma linha
+esc + space = procura por algum nome ou palavra
+
 _________________________________________________________________________________
