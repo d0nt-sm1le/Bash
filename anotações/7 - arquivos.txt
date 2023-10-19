@@ -1,0 +1,49 @@
+                                 Arquivos
+__________________________________________________________________________________
+Pastas e diretórios: 
+
+pwd = mostra a pasta em que você está
+cd = para mudar de pasta
+cd - = você volta uma pasta
+ls = para listar arquivos ou pastas
+ls -l = informações mais detalhadas dos arquivos da pasta
+more / cat = exibe conteúdo do arquivo
+rm - rf = apaga pastas
+
+mv ( o nome do arquivo ) ( novo nome do arquivo ) = muda o nome dos arquivos
+mv ( nome do arquivo ) ( diretório ) = muda o arquivo para outro diretório
+                          
+--------------------------------------------------------
+Exibição do arquivo:
+
+nano (nome do arquivo) = mostra o arquivo completo
+tac = mostra o arquivo de trás pra frente
+la / -la = mostra arquivos ocultos
+head = mostra as primeiras 5 linhas de um arquivo
+head -n(numero) = mostra quantas linhas você escolher depois do -n
+tail = mostra as 5 últimas linhas do arquivo
+tail -f = mostra o arquivo em tempo real
+
+--------------------------------------------------------
+Criar e deletar arquivos:
+
+> / touch = cria arquivos ou coloca um comando dentro de um arquivo (comando > arquivo)
+> . / touch . = cria arquivos ocultos
+rm = apaga arquivos e pastas
+mkdir (nome da pasta) = cria pastas
+cp [arquivo 1] [arquivo 2] = copia arquivo 1 para o arquivo 2
+
+Você pode usar o sinal de > antes do comando para escrever alguma coisa dentro de um arquivo, ex: echo hello, wolrd > world. Ou seja " escreva hello, world dentro de world". E se você coloca >> você vai pular uma linha, e a linha que você mandou escrever vai aparecer de baixo da linha anterior
+
+chmod +x = modifica as permições do arquivo (+x para tornar o arquivo executavel)(quando você criar um arquivo , se você colocar ; depois do arquivo , você vai poder faze-lo ser executavel sem ter que fazer outra linha com ele)(e se você colocar um "u" antes do + , então só o seu úsuario podera executa-lo)
+
+--------------------------------------------------------
+Procurar e achar arquivos:
+
+locate = mostra todos os diretorios onde o nome do arquivo apareceu
+updatedb = para que o locate seja capaz de encotrar arquivos com o sistema atualizado
+whereis = mostra onde está a localização dele e o binário dele
+which = mostra só o binario de um arquivo 
+find / -nome do arquivo = mostra todos os diretorios que o arquivo onde o nome do arquivo apareceu
+
+__________________________________________________________________________________
