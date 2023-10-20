@@ -43,4 +43,9 @@ update-rc.d ssh disable = desabilita pro ssh iniciar junto com o sistema
 - Serviços:
   * Apache2
   * ssh
+-----------------------------------------------------------------------------
+PC:
+
+ifconfig eth0 ip = para mudar o seu ip
+macchanger -r eth0 = para mudar o seu endereço mac
 __________________________________________________________________________________
