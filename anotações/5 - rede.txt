@@ -5,7 +5,7 @@ Configs:
 ifconfig eth0 = mostra as configurações da nossa placa de rede
 ifconfig eth0 netmask = você pode mudar o seu ip colocando um novo depois do eth0 e colocar uma nova mascara depois dos netmask
 dhclient eth0 = pega algum ip fisico local caso seja um ip fisico
-tail -f /var/log/apache2/access.log = mostra os logs do serviço 
+tail -f /var/log/apache2/access.log = mostra os logs do serviço do apache2
 
 /etc/init.d/networking restart = reinicia as configs de rede
 service networking restart = reinicia as configs de rede
@@ -29,7 +29,7 @@ route add default gw ip = define o ip de gateway
 -----------------------------------------------------------------------------
 Serviços:
 
-netstat = visualiza as conexões de rede
+netstat -nlpt = visualiza as conexões de rede
 netstat -lt = vizualiza portas TCP abertas no sistema
 netstat -lu = vizualiza o DP da rede
 netstat -lnt = vizualiza o TCP pelo o numero da porta
