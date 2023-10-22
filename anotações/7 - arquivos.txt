@@ -23,6 +23,7 @@ head = mostra as primeiras 5 linhas de um arquivo
 head -n(numero) = mostra quantas linhas você escolher depois do -n
 tail = mostra as 5 últimas linhas do arquivo
 tail -f = mostra o arquivo em tempo real
+wc -l arquivo = mostra quantas linhas o arquivo tem
 
 --------------------------------------------------------
 Criar e deletar arquivos:

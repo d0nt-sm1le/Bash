@@ -9,6 +9,7 @@ tail -f /var/log/apache2/access.log = mostra os logs do serviço do apache2
 
 /etc/init.d/networking restart = reinicia as configs de rede
 service networking restart = reinicia as configs de rede
+ipcalc ip/netmask = mostra os hots do seu ip
 ----------------------------------------------------------------------------
 Arquivos:
 
