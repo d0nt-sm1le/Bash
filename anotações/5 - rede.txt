@@ -5,15 +5,15 @@ Configs:
 ifconfig eth0 = mostra as configurações da nossa placa de rede
 ifconfig eth0 netmask = você pode mudar o seu ip colocando um novo depois do eth0 e colocar uma nova mascara depois dos netmask
 dhclient eth0 = pega algum ip fisico local caso seja um ip fisico
-tail -f /var/log/apache2/access.log = mostra os logs do serviço do apache2
 
-/etc/init.d/networking restart = reinicia as configs de rede
 service networking restart = reinicia as configs de rede
 ipcalc ip/netmask = mostra os hots do seu ip
+
+
 ----------------------------------------------------------------------------
 Arquivos:
 
-caminho (/etc/networks/interfaces) dentro desse caminho você pode colocar um comando de "auto eth0" e embaixo colocar "iface eth0 inet dhcp"
+caminho (/etc/network/interfaces) dentro desse caminho você pode colocar um comando de "auto eth0" e embaixo colocar "iface eth0 inet dhcp"
 
 dhcp = pega um ip fisico automaticamente
 static = define o ip de um inderesso físico
@@ -44,6 +44,20 @@ update-rc.d ssh disable = desabilita pro ssh iniciar junto com o sistema
 - Serviços:
   * Apache2
   * ssh
+-----------------------------------------------------------------------------
+Diretórios:
+
+tail -f /var/log/apache2/access.log = mostra os logs do serviço do apache2
+
+/etc/init.d/networking restart = reinicia as configs de rede
+
+/var/www/html = onde fica a config principal do webserver
+
+/etc/apache2/conf-enabled/security.conf = dentro dele se você colocar os Tokens como null seu site vai ficar menos exposto
+
+/etc/apache2/apache2.conf = dentro desse diretório retire o "Indexes" de "Options
+indexes" para apenas pessoas que forem autorizadas, tiverem acesso a pasta.
+
 -----------------------------------------------------------------------------
 PC:
 
