@@ -12,7 +12,7 @@ grep "" / = filtra para achar um comando ou diretório especifico
 grep -v "" / = acha um comando ou diretório especifico mas filtra e tira oque aparece no que está em aspas.
 egrep -v " | " acha um comando ou diretório especifico mas filtra e tire oque está entre aspas e o "|" serve para caso tenha mais de um filtro
 
-awk -F '{print $1}' diretório = depois do -F você vai colocar o separodor que divide cada linha, e no $1 , trocando o numero você pode escolher a coluna que você quer filtrar.
+awk -F '{print $1}' diretório = depois do -F você vai colocar o separador que divide cada linha, e no $1 , trocando o numero você pode escolher a coluna que você quer filtrar.
 
 cut -d : -f1 diretorio = é a mesma coisa do awk mas invés do $1 é -f1
 

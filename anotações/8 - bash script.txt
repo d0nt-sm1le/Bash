@@ -1,0 +1,25 @@
+                                   Básico
+__________________________________________________________________________________
+Comandos:
+
+#!/bin/bash = sempre que for fazer um script em bash
+# = comentário
+echo "" = exibe um texto na tela
+$váriavel = mostra uma váriavel
+read váriavel = permite o úsuario colocar um valor na váriavel
+--------------------------------------------------------------
+Condições:
+
+if [] = se a condição dentro de [] for verdadeira
+than = execute
+elif [] = se a primeira condição não foi verdadeira, verifique se essa foi
+else = se as condições forem falsas então execute (comando dentro do else)
+fi = para a condição
+
+-lt = menor que
+-gt = maior que
+-le = menor ou igual a
+-ge = maior ou igual a
+-eq = igual a
+-ne = diferente de
+__________________________________________________________________________________
