@@ -63,4 +63,7 @@ PC:
 
 ifconfig eth0 ip = para mudar o seu ip
 macchanger -r eth0 = para mudar o seu endereço mac
+ping -n = faz uma requisição de conexão a um determinado site e apartir disso
+uma conexão pode ser estabelecida ou não, o -n é pra escolher o número de 
+requisição.
 __________________________________________________________________________________
