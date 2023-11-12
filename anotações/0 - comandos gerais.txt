@@ -7,12 +7,17 @@ top [k] = mata o processo pelo id
 clear = limpa o terminal
 -n = manda não fazer a quebra de linha
 | = separa um comando
+du -h nome do arquivo = mostra o tamanho do arquivo
 
 grep "" / = filtra para achar um comando ou diretório especifico
-grep -v "" / = acha um comando ou diretório especifico mas filtra e tira oque aparece no que está em aspas.
-egrep -v " | " acha um comando ou diretório especifico mas filtra e tire oque está entre aspas e o "|" serve para caso tenha mais de um filtro
+grep -v "" / = acha um comando ou diretório especifico mas filtra e tira 
+oque aparece no que está em aspas.
+egrep -v " | " acha um comando ou diretório especifico mas filtra e tira 
+oque está entre aspas e o "|" serve para caso tenha mais de um filtro
 
-awk -F '{print $1}' diretório = depois do -F você vai colocar o separador que divide cada linha, e no $1 , trocando o numero você pode escolher a coluna que você quer filtrar.
+awk -F '{print $1}' diretório = depois do -F você vai colocar o separador que
+divide cada linha, e no $1 , trocando o numero você pode escolher a coluna que
+você quer filtrar.
 
 cut -d : -f1 diretorio = é a mesma coisa do awk mas invés do $1 é -f1
 
@@ -20,7 +25,8 @@ sed 's/ /' nome do arquivo = faz uma alteração em alguma linha do arquivo
  
 ; = é usado para quando você terminar de fazer um comando , você pode fazer outro na mesma linha na ordem de sequencia.
 
-test comando / [comando] / [[ comando com talvez expressões regulares]] = faz o teste de um comando
+test comando / [comando] / [[ comando com talvez expressões regulares]] = 
+faz o teste de um comando
 
 !! = repete o comando anterior
 __________________________________________________________________________________
